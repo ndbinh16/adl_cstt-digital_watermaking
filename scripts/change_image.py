@@ -44,7 +44,7 @@ output_img_resize = images_dir + 'w-gray_0.05_80p.bmp'
 # crop image
 input_img_crop = images_dir + 'w-gray_0.05.bmp'
 output_img_crop = images_dir + 'w-gray_0.05_crop.bmp'
-crop_img(input_img_resize, output_img_resize, left=80, right=80, upper=80, lower=80)
+# crop_img(input_img_resize, output_img_resize, left=80, right=80, upper=80, lower=80)
 
 # # Thu nhỏ ảnh & phóng to lên lại
 # img = Image.open('10-marked_lena.bmp')
